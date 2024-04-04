@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background: #FCEBB6;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(23, 79, 146, 0.1);
+    background: rgba(0, 0, 0, 0);
+    color: #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #FCEBB6;
+    background: transparent;
+    color: #FCEBB6;
+}
+
+.btn-primary {
+    background-color: #FCEBB6;
+    border-color: #FCEBB6;
+    color: #FFF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #FCEBB6 !important;
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
+    border-color: #FCEBB6;
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #FCEBB6 !important;
+}
+
+.btn-outline-primary,
+.btn-primary {
+    color: #FCEBB6 !important;
+    background-color: transparent !important;
+    border-color: #FCEBB6 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    background-color: #FCEBB6 !important;
+    color: #FFF !important;
+}
+.alert-warning a {
+    color: #3d4744 !important;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCEBB6;
+    height: 100vh;
+  }
+  
+  .nav-logo {
+    width: 50px;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0 auto;
+  }
+  
+  .login-btn {
+    color: #FCEBB6;
+    text-decoration: none;
+    padding: 11px 16px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    background-color: #3d4744;
+    border-radius: 100%;
+  }
+  
+  li {
+    margin: 200px 0;
+  }
+  
+  .nav-link {
+    color: #3d4744;
+    text-decoration: none;
+    font-size: 2rem;
+  }
