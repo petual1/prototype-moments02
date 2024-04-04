@@ -210,7 +210,7 @@ li {
 .calendar .days .active {
   position: relative;
   font-size: 2rem;
-  color: #fff;
+  color: #000000;
   background-color: var(--primary-clr);
 }
 
