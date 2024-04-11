@@ -23,7 +23,7 @@ Este projeto consiste em três partes principais:
 
 ## Demonstração
 
-(https://petual1.github.io/prototype-moments02/)(#) 
+(https://petual1.github.io/prototype-moments02/) 
 
 ## Recursos Implementados
 
