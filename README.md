@@ -63,7 +63,7 @@ Para executar este projeto localmente, você precisa ter instalado:
 
 ## Testes Unitários
 
-Para executar os testes unitários, você pode usar o comando `npm test` ou `jest`. Certifique-se de ter as dependências instaladas executando `npm install` antes de executar os testes.
+Para executar os testes unitários, você pode usar o comando `npm test` ou `jest`, pode-se usar também `jest --verbose` para visualizar o teste com descrição detalhada. Certifique-se de ter as dependências instaladas executando `npm install` antes de executar os testes.
 
 ## Contribuindo
 
