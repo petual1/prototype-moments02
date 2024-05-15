@@ -61,6 +61,10 @@ Para executar este projeto localmente, você precisa ter instalado:
 - Adicione novas anotações ou edite as existentes na página de anotações.
 - No perfil do usuário, você pode editar suas informações pessoais e fazer upload de uma foto de perfil.
 
+## Testes Unitários
+
+Para executar os testes unitários, você pode usar o comando `npm test` ou `jest`. Certifique-se de ter as dependências instaladas executando `npm install` antes de executar os testes.
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Para sugestões, correções de bugs ou outras melhorias, abra uma issue ou envie um pull request.
