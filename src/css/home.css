@@ -97,7 +97,7 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("https://cdn.discordapp.com/attachments/374288126828478465/1225345726138290256/pexels-breakingpic-3243.jpg?ex=6620cb22&is=660e5622&hm=e8c134c8504d7defb61bff8de05b555267db484f5ae1873210ea0d4305aa3f5e&");
+   background: url("/src/images/pexels-breakingpic-3243.jpg");
     background-position-x: 25%;
     background-position-y: top;
     display: grid;
