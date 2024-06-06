@@ -97,7 +97,7 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-   background: url("/src/images/pexels-breakingpic-3243.jpg");
+    background: url("/src/images/pexels-breakingpic-3243.jpg");
     background-position-x: 25%;
     background-position-y: top;
     display: grid;
