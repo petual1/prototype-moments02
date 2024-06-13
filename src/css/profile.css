@@ -14,6 +14,21 @@ body {
     display: flex;
 }
 
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+h4 {
+    font-size: 24px; /* Reduz o tamanho da fonte do título */
+}
+
+.container h4 {
+    font-size: 24px !important; /* Reduz o tamanho da fonte do título com prioridade */
+}
+
+
+
 .ui-w-80 {
     width: 80px !important;
     height: auto;
@@ -50,9 +65,10 @@ label.btn {
 }
 
 .card {
-    background-clip: padding-box;
-    box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
-    border-color: #FCEBB6;
+    margin-top: 20px; 
+    padding: 20px; 
+    width: 800px; 
+    height: 650px; 
 }
 
 .row-bordered {
@@ -131,6 +147,10 @@ nav {
     background-color: #3d4744;
     border-radius: 100%;
   }
+
+  .btn {
+    margin-top: 10px; /* Ajusta o espaçamento entre os botões */
+}
   
   li {
     margin: 200px 0;
@@ -141,3 +161,5 @@ nav {
     text-decoration: none;
     font-size: 2rem;
   }
+
+  
